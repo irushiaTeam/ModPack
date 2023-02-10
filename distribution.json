@@ -1,0 +1,92 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "385581240906022916",
+        "smallImageText": "WesterosCraft",
+        "smallImageKey": "seal-circle"
+    },
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "rss": "https://westeroscraft.com/articles/index.rss",
+    "servers": [
+            {
+                "id": "vanilla-1.16.5",
+                "name": "%0%バニラ1.16.5 (Minecraft 1.16.5)",
+                "description": "1.16.5 + 便利なModが導入されたおすすめのパックです。",
+                "icon": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/1.vanilla-1.16.5/pack.png",
+                "version": "1.0.1",
+                "address": "",
+                "minecraftVersion": "1.16.5",
+                "discord": {
+                  "shortId": "Minecraft",
+                  "largeImageText": "Minecraft",
+                  "largeImageKey": "pack_numa"
+                },
+                "mainServer": false,
+                "autoconnect": false,
+                "modules": [
+                  {
+                    "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
+                    "name": "Minecraft Forge (installer)",
+                    "type": "Forge",
+                    "artifact": {
+                      "size": 7390346,
+                      "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
+                      "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar"
+                    },
+                    "subModules": []
+                  },
+                  {
+                    "id": "com.sintinium:oauth:1.0@jar",
+                    "name": "OAuth",
+                    "type": "ForgeMod",
+                    "artifact": {
+                      "size": 51399,
+                      "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/1.vanilla-1.16.5/forgemods/optionalon/oauth-1.06.1-1.16.jar",
+                      "MD5": "07a30e616c9f2abff94e1212645f3565"
+                    },
+                    "required": {
+                      "value": false
+                    }
+                  },
+                  {
+                    "id": "net.kunmc.lab:vplayer:1.3-1.16.5-SNAPSHOT@jar",
+                    "name": "VideoPlayer",
+                    "type": "ForgeMod",
+                    "artifact": {
+                      "size": 41076744,
+                      "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/1.vanilla-1.16.5/forgemods/optionalon/vplayer-1.3-1.16.5-SNAPSHOT-all.jar",
+                      "MD5": "7ebcb4fcda1a20e3bf54bb4bbcd01724"
+                    },
+                    "required": {
+                      "value": false
+                    }
+                  }
+                ]
+        },        
+        {
+            "id": "Test-1.12.2",
+            "name": "Test Server",
+            "description": "",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
+            "version": "4.6.5",
+            "address": "play.tokotokoaqua.xyz",
+            "minecraftVersion": "1.12.2",
+            "mainServer": false,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2847",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 4884700,
+                        "MD5": "90734a5a713e24902d24c45c15caa42c",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/forge-1.12.2-14.23.5.2847-universal.jar"
+                    }
+                }
+            ]
+        }
+    ]
+}
