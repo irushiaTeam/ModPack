@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "",
+  "rss": "https://raw.githubusercontent.com/TeamKun/NumaPacks/news/news.rss",
   "discord": {
     "clientId": "1046345411381690388",
     "smallImageText": "いるしあランチャー",
