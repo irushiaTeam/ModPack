@@ -21,9 +21,9 @@
                   "largeImageKey": "minecraft000"
                 },
                 "mainServer": false,
-                "autoconnect": false,
+                "autoconnect": true,
                 "modules": [
-                  {
+                    {
                     "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
                     "name": "Minecraft Forge (installer)",
                     "type": "Forge",
@@ -31,7 +31,8 @@
                       "size": 7390346,
                       "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
                       "url": "https://raw.githubusercontent.com/irushiaTeam/ModPack/main/1.16.5/forge-1.16.5-36.2.20-installer.jar"
-                    },
+                    }
+                  },
                   {
                     "id": "com.sintinium:oauth:1.0@jar",
                     "name": "OAuth",
@@ -40,9 +41,6 @@
                       "size": 51399,
                       "url": "https://raw.githubusercontent.com/irushiaTeam/ModPack/main/1.16.5/oauth-1.06.1-1.16.jar",
                       "MD5": "07a30e616c9f2abff94e1212645f3565"
-                    },
-                    "required": {
-                      "value": false
                     }
                   },
                   {
@@ -53,13 +51,10 @@
                       "size": 41076744,
                       "url": "https://raw.githubusercontent.com/irushiaTeam/ModPack/main/1.16.5/vplayer-1.3-1.16.5-SNAPSHOT-all.jar",
                       "MD5": "7ebcb4fcda1a20e3bf54bb4bbcd01724"
-                    },
-                    "required": {
-                      "value": false
                     }
                   }
                 ]
-        },        
+              },   
         {
             "id": "Test-1.12.2",
             "name": "Test Server",
@@ -79,9 +74,9 @@
                         "size": 4884700,
                         "MD5": "90734a5a713e24902d24c45c15caa42c",
                         "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/forge-1.12.2-14.23.5.2847-universal.jar"
+                      }
                     }
-                }
-            ]
-        }
-    ]
-}
+                ]
+            }
+        ]
+    }
