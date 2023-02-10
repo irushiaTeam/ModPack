@@ -1,27 +1,24 @@
 {
-    "version": "1.0.0",
-    "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
-    },
-    "java": {
-        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
-    },
-    "rss": "https://westeroscraft.com/articles/index.rss",
-    "servers": [
-            {
+  "version": "1.0.0",
+  "rss": "",
+  "discord": {
+    "clientId": "1046345411381690388",
+    "smallImageText": "いるしあランチャー",
+    "smallImageKey": "minecraft000"
+  },
+  "servers": [
+    {
                 "id": "vanilla-1.16.5",
-                "name": "%0%バニラ1.16.5 (Minecraft 1.16.5)",
+                "name": "バニラ1.16.5 (Minecraft 1.16.5)",
                 "description": "1.16.5 + 便利なModが導入されたおすすめのパックです。",
-                "icon": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/1.vanilla-1.16.5/pack.png",
+                "icon": "https://raw.githubusercontent.com/irushiaTeam/ModPack/main/1.16.5/miencraft%20%20server.png",
                 "version": "1.0.1",
-                "address": "",
+                "address": "play.tokotokoaqua.xyz",
                 "minecraftVersion": "1.16.5",
                 "discord": {
                   "shortId": "Minecraft",
                   "largeImageText": "Minecraft",
-                  "largeImageKey": "pack_numa"
+                  "largeImageKey": "minecraft000"
                 },
                 "mainServer": false,
                 "autoconnect": false,
