@@ -7,54 +7,6 @@
     "smallImageKey": "minecraft000"
   },
   "servers": [
-    {
-                "id": "vanilla-1.16.5",
-                "name": "バニラ1.16.5 (Minecraft 1.16.5)",
-                "description": "1.16.5 + 便利なModが導入されたおすすめのパックです。",
-                "icon": "https://raw.githubusercontent.com/irushiaTeam/ModPack/main/1.16.5/miencraft%20%20server.png",
-                "version": "1.0.1",
-                "address": "play.tokotokoaqua.xyz",
-                "minecraftVersion": "1.16.5",
-                "discord": {
-                  "shortId": "Minecraft",
-                  "largeImageText": "Minecraft",
-                  "largeImageKey": "minecraft000"
-                },
-                "mainServer": false,
-                "autoconnect": true,
-                "modules": [
-                    {
-                    "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
-                    "name": "Minecraft Forge (installer)",
-                    "type": "Forge",
-                    "artifact": {
-                      "size": 7390346,
-                      "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
-                      "url": "https://raw.githubusercontent.com/irushiaTeam/ModPack/main/1.16.5/forge-1.16.5-36.2.20-installer.jar"
-                    }
-                  },
-                  {
-                    "id": "com.sintinium:oauth:1.0@jar",
-                    "name": "OAuth",
-                    "type": "ForgeMod",
-                    "artifact": {
-                      "size": 51399,
-                      "url": "https://raw.githubusercontent.com/irushiaTeam/ModPack/main/1.16.5/oauth-1.06.1-1.16.jar",
-                      "MD5": "07a30e616c9f2abff94e1212645f3565"
-                    }
-                  },
-                  {
-                    "id": "net.kunmc.lab:vplayer:1.3-1.16.5-SNAPSHOT@jar",
-                    "name": "VideoPlayer",
-                    "type": "ForgeMod",
-                    "artifact": {
-                      "size": 41076744,
-                      "url": "https://raw.githubusercontent.com/irushiaTeam/ModPack/main/1.16.5/vplayer-1.3-1.16.5-SNAPSHOT-all.jar",
-                      "MD5": "7ebcb4fcda1a20e3bf54bb4bbcd01724"
-                    }
-                  }
-                ]
-              },   
         {
             "id": "Test-1.12.2",
             "name": "Test Server",
